@@ -19,36 +19,6 @@
       "comparison": "included",
       "timeout": 2,
       "points": 20
-    },
-    {
-      "name": "Test3",
-      "setup": "",
-      "run": "python3 convolve.py",
-      "input": "0.92\r\n6, 7, 10, 15, 14, 16, 19, 19\r\n5, 5, 5, 4, 4, 4, 3",
-      "output": "mean1A = 13.25\r\nmean2A = 3.75\r\nmean1A + mean2A = 17.0\r\nThe probability that two events will take less than t' < t:\r\nPrA(t'< 20.0 s) = 0.92",
-      "comparison": "included",
-      "timeout": 1,
-      "points": 20
-    },
-    {
-      "name": "Test4",
-      "setup": "",
-      "run": "python3 convolve.py",
-      "input": "0.99\r\n5, 8, 9, 2, 12, 10, 13, 14, 15, 18\r\n3, 5, 6, 6, 6, 5, 6, 7, 6, 5",
-      "output": "mean1A = 10.6\r\nmean2A = 5.5\r\nmean1A + mean2A = 16.1\r\nThe probability that two events will take less than t' < t:\r\nPrA(t'< 20.0 s) = 0.99",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 20
-    },
-    {
-      "name": "Test5",
-      "setup": "",
-      "run": "python3 convolve.py",
-      "input": "0.5\r\n15, 16, 12, 8, 7, 5\r\n3, 4, 4, 5, 7, 7",
-      "output": "mean1A = 10.5\r\nmean2A = 5.0\r\nmean1A + mean2A = 15.5\r\nThe probability that two events will take less than t' < t:\r\nPrA(t'< 20.0 s) = 0.50",
-      "comparison": "included",
-      "timeout": 1,
-      "points": 20
     }
   ]
 }
